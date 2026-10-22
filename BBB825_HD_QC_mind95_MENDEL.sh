@@ -49,7 +49,6 @@ echo "=== Step 3:  Apply QC Filters ==="
 #   Minor Allele Frequency       >= 0.5% (--maf 0.005)
 #   Hardy-Weinberg Equilibrium p >= 0.001 (--hwe 0.001)
 
-p
        
 plink --bfile HD_named \
        --cow \
